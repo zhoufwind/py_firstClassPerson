@@ -11,3 +11,9 @@ class Person:
     def greet(self):
         print "Hello, world! I'm %s." % self.name
 
+foo = Person()
+bar = Person()
+foo.setName('Luke Skywalker')
+bar.setName('Anakin Skywalker')
+foo.greet()
+bar.greet()
